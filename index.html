@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect " href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0084cc2fcc.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Phinma-Cagayan de Oro College</title>
+  </head>
+
+  <body>
+    <!-----Header----->
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="pics/logo.png" alt="Phinma Logo" /></a>
+        <div class="nav-links" id="navlinks">
+          <i class="fa-solid fa-xmark" onclick="hide()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="index.html">ABOUT</a></li>
+            <li><a href="index.html">PROGRAM</a></li>
+            <li><a href="index.html">ADMISSION</a></li>
+            <li><a href="index.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="show()"></i>
+      </nav>
+      <div class="textbox">
+        <h1>Making Lives Better Through <br />Education</h1>
+        <p>"Sasamahan Kita"</p>
+        <a
+          href="https://www.facebook.com/phinmacoc"
+          target="_blank"
+          class="btn1"
+          >Visit Us To Know More</a
+        >
+      </div>
+    </section>
+    <!-- java script -->
+    <script>
+      var navlinks = document.getElementById("navlinks");
+      function hide() {
+        navlinks.style.right = "-200px";
+      }
+      function show() {
+        navlinks.style.right = "0";
+      }
+    </script>
+    <!------options------>
+    <section class="options">
+      <div class="row">
+        <div class="options-col">
+          <img src="pics/patient.jpg" alt="nurse working" />
+          <div class="layer">
+            <h2>Quality Education</h2>
+            <h4>World-class eduaction for everyone</h4>
+            <a href="" class="btn2">COURSES</a>
+          </div>
+        </div>
+        <div class="options-col">
+          <img src="pics/affordable.jpg" alt="school campus" />
+          <div class="layer">
+            <h2>Accessible & Affordable</h2>
+            <h4>Everyone deserves education however and wherever</h4>
+            <a href="" class="btn2">SCHOLARSHIP</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="options-col">
+          <img src="pics/study.jpg" alt="nurse working" />
+          <div class="layer">
+            <h2>Student Life</h2>
+            <h4>Check out the Cagayan De Oro College education privilege</h4>
+            <a href="" class="btn2">MORE INFO</a>
+          </div>
+        </div>
+        <div class="options-col">
+          <img src="pics/smiley.jpg" alt="school campus" />
+          <div class="layer">
+            <h2>Admission</h2>
+            <h4>Be part of our big and growing PHINMA family</h4>
+            <a href="" class="btn2">ENROLL NOW</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------MORE INFO CONTENT------>
+    <section class="info">
+      <div class="row">
+        <div class="info-left">
+          <h2>
+            Choose <br />
+            PHINMA Education
+          </h2>
+
+          <p>
+            As an innovative Philippine business institution, PHINMA believes
+            that access to quality education is the solution to many of our
+            country’s problems. While the enrollment rate in the Philippines has
+            always been high, PHINMA discovered that most students do not finish
+            tertiary education. Students were willing to learn but did not have
+            the resources to stay in school.
+          </p>
+          <p>That is why in 2004, PHINMA Education was established.</p>
+          <p>
+            PHINMA Education is making education accessible in key growth areas
+            all over the country. It has transformed existing educational
+            institutions to provide better academic, operational, and community
+            support for all of its students. Through its efforts more students
+            are able to earn college degrees and become globally competitive
+            professionals.
+          </p>
+          <p>
+            The PHINMA Education Network is now composed of six secondary and
+            <br />
+            tertiary educational institutions spread throughout the country.
+          </p>
+        </div>
+        <div class="info-right">
+          <div class="row2">
+            <div class="choices-col">
+              <i class="fa-solid fa-graduation-cap fa-4x"></i>
+              <h3>
+                1 in 3 students have <br />
+                scholarships.
+              </h3>
+              <i class="fa-solid fa-plus"></i>
+              <p>
+                Our Hawak Kamay Scholarship <br />
+                Program provides subsidies to our <br />
+                already low tuition fees.
+              </p>
+            </div>
+            <div class="choices-col">
+              <i class="fa-solid fa-briefcase fa-4x"></i>
+              <h3>81% of graduates are employed <br />within a year</h3>
+              <i class="fa-solid fa-plus"></i>
+              <p>
+                We produce globally competitive <br />
+                professionals.
+              </p>
+            </div>
+          </div>
+          <div class="row2">
+            <div class="choices-col">
+              <i class="fa-solid fa-file-circle-check fa-4x"></i>
+              <h3>80 - 100% success rate in licensure <br />exams</h3>
+              <i class="fa-solid fa-plus"></i>
+              <p>
+                Our educational programs are relevant <br />
+                and up-to-date.
+              </p>
+            </div>
+            <div class="choices-col">
+              <i class="fa-solid fa-user-graduate fa-4x"></i>
+              <h3>70,000 students are enrolled and thriving</h3>
+              <i class="fa-solid fa-plus"></i>
+              <p>
+                More and more students from <br />
+                low-income families benefit from <br />
+                PHINMA Ed.
+              </p>
+            </div>
+          </div>
+          <div class="row2">
+            <div class="choices-col">
+              <i class="fa-solid fa-school fa-4x"></i>
+              <h3>6 major campuses and <br />counting.</h3>
+              <i class="fa-solid fa-plus"></i>
+              <p>
+                We’ve chosen key locations in the country, <br />
+                making it easy for every student to find <br />
+                a PHINMA Ed school near them.
+              </p>
+            </div>
+            <div class="find_more">
+              <p>
+                Click here to learn more about our <br />
+                schools and organization.
+              </p>
+              <a
+                href="https://www.facebook.com/phinmacoc"
+                target="_blank"
+                class="btn1"
+                >Visit Us To Know More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- News and Info -->
+    <section class="updates">
+      <h2>Stay Updated</h2>
+      <p>Check our latest news and event articles!</p>
+      <a href="" class="btn1">Read Our News & Events</a>
+    </section>
+
+    <!-- contact -->
+    <section class="contact">
+      <div class="row">
+        <div class="con-left">
+          <h2>Contact Us</h2>
+          <p>Want to know more about PHINMA Ed? Leave a message below:</p>
+          <form action="" method="">
+            <h3>Name</h3>
+            <input
+              type="text"
+              name="name"
+              placeholder="ex.  Kent Bryan V. Asilo"
+              required
+            />
+            <h3>E-mail</h3>
+            <input
+              type="text"
+              name="email"
+              placeholder="ex.  kent123@gmail.com"
+              required
+            />
+            <h3>Subject</h3>
+            <input
+              type="text"
+              name="subject"
+              placeholder="ex.  Tuition"
+              required
+            />
+            <h3>Message</h3>
+            <textarea
+              rows="8"
+              name="message"
+              placeholder="Type Something"
+              required
+            ></textarea>
+            <button type="submit" class="btn1">
+              <i class="fa-solid fa-paper-plane"></i>SEND
+            </button>
+          </form>
+        </div>
+        <div class="con-right">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d493.2726515845239!2d124.63596500000001!3d8.481754!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3fc6f10f4d0966e5!2sPHINMA%20-%20Cagayan%20de%20Oro%20College!5e0!3m2!1sen!2sus!4v1658537853550!5m2!1sen!2sus"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+      <div class="row">
+        <div class="left">
+          <img src="pics/2020-PHINMA-COC-Logo_white.png" alt="Phinma Logo" />
+          <h4 class="con">CONTACT US</h4>
+          <p>TEL. NO.: +63 (088) 858-5867</p>
+          <p>FAX: +63 (088) 858-3880</p>
+          <p>MOBILE NO.: +63 917-376-5105</p>
+          <p>EMAIL: info.coc@phinmaed.com</p>
+          <p>PHINMA COC Main:</p>
+          <p>Max Suniel Street, Carmen</p>
+          <p>Cagayan de Oro City, 9000, Misamis Oriental</p>
+          <p>PHINMA COC Puerto:</p>
+          <p>Purok 6, Puerto Cagayan de Oro City, 9000, Misamis Oriental</p>
+
+          <h4 class="navigation">NAVIGATION</h4>
+          <p>
+            Our Story | Our Mission | PHINMA Education | Management | College
+            Programs | Graduate School | Basic
+          </p>
+          <p>
+            Education | Scholarships | Alumni | Admission | Parent | Incoming
+            Student | Current Student | Stay Updated
+          </p>
+          <p>| Contact</p>
+        </div>
+
+        <div class="right">
+          <a href="#"><i class="fa-solid fa-angle-up fa-3x"></i></a>
+          <img src="pics/PHINMA LOGO.png" alt="PHINMA LOGO" />
+          <div class="logo">
+            <i class="fa-brands fa-facebook-f fa-2x"></i>
+            <i class="fa-brands fa-twitter fa-2x"></i>
+            <i class="fa-brands fa-instagram fa-2x"></i>
+            <i class="fa-brands fa-youtube fa-2x"></i>
+          </div>
+          <p>
+            &copy;2020 PHINMA Education | All rights reserved | Privacy Policy
+          <br>
+          Site by Kent Bryan Asilo</p>
+          <div class="last">
+            <a
+              href="https://www.facebook.com/messages/t/605264409583900"
+              target="_blank"
+              ><i class="fa-brands fa-facebook-messenger fa-3x"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
