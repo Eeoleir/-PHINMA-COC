@@ -6,4 +6,4 @@
 
 🚨 Copyright Infringement Intended or any harm intention
 
-🌐 phinma-coc.pages.dev
+🌐 https://phinma-coc.pages.dev
